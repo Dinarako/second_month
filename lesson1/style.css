@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  min-height: 100vh;
+ }
+
+ .rectangle {
+ background-color: #2c3e50;
+ height: 400px;
+ width: 140px;
+ border-radius: 50px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 17px 0;
+ flex-direction: column;
+ }
+
+ .krug {
+   background-color: rgba(0, 0, 0, 0.3);
+   width: 90px;
+   height: 90px;
+   border-radius: 50%;
+ }
+
+ .krug.red {
+   background-color: brown;
+   box-shadow: 0 0 20px brown;
+ }
+
+ .krug.yellow {
+   background-color: #e6e600;
+   box-shadow: 0 0 20px #e6e600;
+ }
+
+ .krug.green {
+   background-color: green;
+   box-shadow: 0 0 20px green;
+ }
